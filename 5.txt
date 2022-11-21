@@ -1,11 +1,13 @@
 ﻿web crawling:
+ web crawling is also web scraping
 Install beautiful soap in your vs code
 * Web scraping can be done using beautiful soap
 1. inspect the website HTML that you want to crawl.
 2. Access the URL of the website using code and download all the HTML contents on the page.
 3. Format the downloaded content into a readable format.
 4. Extract out useful information and save it into a structured format.
-5. To format the content we need to use 
+5. To format the content we need to use
+ soup=BeautifulSoup(content)
 6.  Using findall method we can extract text or images based on the tag
 from bs4 import BeautifulSoup
 import requests
