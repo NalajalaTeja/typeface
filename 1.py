@@ -1,3 +1,4 @@
+num=int(input())
 def base3(num):
     if num<0:
         x='-'
@@ -11,4 +12,4 @@ def base3(num):
         ans=str(num%3)+ans
         num=num//3
     return x+ans
-print(base3(10))
+print(base3(num))
